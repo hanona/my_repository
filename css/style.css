@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+.piczoom{
+	max-height:350px;
+	max-width:350px;
+	width:auto;
+	height:auto;
+	border:#999999 5px solid;
+	border-radius: 1em 1em 1em 1em;
+	}
+	
+.imgsmall{
+	max-height:100px;
+	max-width:100px;
+	width:auto;
+	height:auto;
+	}
+	
+table-style2 thead {
+color:#518FBE;
+font-size:10px;
+font-weight:bold;
+text-transform:uppercase;
+}
+.table-style2 thead tr td {
+border-bottom:2px solid #009FE3;
+}
+.table-style2 td {
+	border-bottom: 1px solid #DDD !important;
+	padding: 6px 1px;
+	text-align: left;
+	font-size: 12px;
+	font-family: verdana;
+	color: #333;
+	font-weight: bold;
+}
+
+.table-style2 td.noborder {
+	border-bottom: 0px !important;
+	}
+.table-style2 .imgsmall {
+height:auto;
+max-height:62px;
+max-width:71px;
+width:auto;
+}	
+
+ul.listadr li{
+	list-style-type: none;
+	font-size: 12px;
+	font-family: verdana;
+	color: grey;
+	line-height: 18px;
+	}
+	
+a.top_cart {
+	float: left;
+	display: inline;
+	color: white !important;
+	text-decoration: none;
+	height: 40px;
+	background: url(../images/cart.png) no-repeat;
+	padding: 0 0 0 39px;
+	width: 9px;
+	margin-top: -10px;
+}
+a.top_cart span {
+	
+}
+
+.price_listing {
+    color: #336633;
+    font-size: 24px;
+    width: auto;
+}
+.ref { font-size: 14px; font-weight:bold;}
+
+.enrepture {
+    color: #F23434 !important;
+     font-size: 13px;
+    margin-left:0px;
+    margin-top: 0;
+	font-weight:normal;
+}
+
+.infostock2 {
+    color: #0FA802;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 0px;
+}
+
+
+.carousel {
+  height: auto;
+  border : 0px solid #000;
+  position : relative;
+  overflow : hidden;
+}
+ 
+.carousel a {
+  color : #363F53;
+  text-decoration:none;
+}
+
+.carousel li div {
+    font-size:1.0em;  
+}  
+
+.carousel-id {
+    text-align : center;
+    height : 18px;
+    color : #FFF;
+    float : left;
+    text-decoration:none; 
+}
+
+.carousel-id a {
+  cursor : pointer;
+  color : #FFF;
+  text-decoration : none;
+}
+
+.carousel-id a:hover {
+  text-decoration : underline;
+}
+
+.carousel-item-title {
+  color : #333;
+  font-size:1.2em;
+  height: 1.5em;
+}
+
+.carousel a:hover {
+  text-decoration : underline;
+}
+
+.carousel-control {
+  z-index: 9900;
+  position:absolute;
+}
+
+.carousel-control img {
+  height : 55px;
+  width : 45px;
+}
+
+.carousel-control img:hover {
+  height : 50px;
+  width : 50px;
+}
+
+.carousel-left {
+  left :0px;
+}
+
+.carousel-right {
+  right :0px;
+}
+  
+.carousel-item {
+  float : left;
+  z-index : 2;
+  background : #FFF;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7x;
+  -opera-border-radius: 7px;
+  border-radius: 7px;
+  border : 0;
+  overflow : hidden;
+}
+
+.carousel-content {  
+  font-size:.8em;
+  z-index :1;
+  position : relative;
+  overflow : hidden;
+}
+
+.carousel-content-scroller  {
+  z-index :1;    
+  position : absolute;
+  overflow-x:hidden;
+  overflow-y:hidden;     
+}
+
+.carousel-item-content {
+  height : 65px;
+  overflow : hidden;    
+}
+
+.carousel-nav {    
+    display:none;        
+    height : 25px;
+	padding-top: 11px;
+}
+
+.carousel-mid {
+    margin-left : auto;
+    margin-right : auto;
+    height : 1.5em;
+}
+
+.carousel-item-selected {
+  background : #99D481;
+}
+
+.carousel-item-content {
+    padding:0 0.5em;
+    position:relative;
+    top:5px;
+}
+
+.carousel-title {
+    padding:0 0.5em;
+    font-size:12px;
+    position:relative;
+}
+
+.carousel-id {
+    width : 15px;
+    height : 20px;
+    margin-left : 3px;
+    margin-right : 3px;
+    padding-left : 2px;
+    padding-right : 2px;
+    cursor : pointer;
+}
+
+/*Carousel themes*/
+.carousel-theme {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: Arial,sans-serif;
+    height: 288px !important;
+    padding: 5px;
+    width: 590px;
+}
+
+.carousel-item-theme {
+    border: 1px solid #333 !important;
+    background:#fff;
+    position:relative;
+}
+
+.carousel-title-theme {
+    color:#fff;
+}
+
+.carousel-title-theme a:link, .carousel-title-theme a:visited {
+    color: #333;
+}
+
+.carousel-id-theme {
+    background:#333;
+    border: 1px solid #000 !important;
+	-moz-border-radius: 7px;
+  -webkit-border-radius: 7x;
+  -opera-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.carousel-id-selected-theme {
+    color:#333;
+    background : #FFF;
+}
+
+
+
+
+  label.error {
+    color: SaddleBrown;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0.5em;
+    width: 100%;
+    float: none;
+}
+
+@media screen and (orientation: portrait){
+    label.error { margin-left: 0; display: block; }
+}
+
+@media screen and (orientation: landscape){
+    label.error { display: inline-block; margin-left: 0%; }
+}
+
+em { color: red; font-weight: bold; padding-right: .25em; }
+
+.category_title{
+	color:#bd0926;
+	font-weight:200;
+	border-left:#bd0926 8px solid;
+	padding-left:10px;
+	}
+
+.category_title_grp{
+
+	}
+	
+h1, h2{margin:0 auto 15px auto}	
+
+.icon_ui{
+	margin-top:12px;
+	margin-left:20px;
+	}
+	
+	
+#content{
+	margin-top:55px;
+	}	
+	
+.ui-title_ref{
+	font-weight:bold;
+	}	
+	
+.listart li	{
+	display:block;
+	float:left;
+	width:109px;
+    margin-right:50px;
+    margin-bottom:50px;
+	}

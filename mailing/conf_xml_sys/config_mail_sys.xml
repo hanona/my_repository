@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config-mail-sys>
+<mail-host>localhost</mail-host>
+<mail-titre>IMAGIN</mail-titre>
+<mailContentModele>MailArticleInfo.xsl</mailContentModele>
+<mail_sender>no-reply@imagin-jouets.com</mail_sender>
+</config-mail-sys>
