@@ -1,4 +1,7 @@
 function ajoutArticle( formId ) {
+	
+	
+	//lol
     
 
 	
